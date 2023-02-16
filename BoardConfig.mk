@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/xiaomi/daisy
+DEVICE_PATH := device/xiaomi/sakura
 
 # ANT
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
@@ -135,8 +135,8 @@ PRODUCT_ENFORCE_VINTF_MANIFEST_OVERRIDE := true
 HWUI_COMPILE_FOR_PERF := true
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_daisy
-TARGET_RECOVERY_DEVICE_MODULES := //$(DEVICE_PATH):libinit_daisy
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_sakura
+TARGET_RECOVERY_DEVICE_MODULES := //$(DEVICE_PATH):libinit_sakura
 
 # Kernel
 BOARD_KERNEL_BASE := 0x80000000
@@ -144,18 +144,18 @@ BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_KERNEL_PAGESIZE :=  2048
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100
-TARGET_KERNEL_SOURCE := kernel/xiaomi/daisy
+TARGET_KERNEL_SOURCE := kernel/xiaomi/sakura
 TARGET_KERNEL_VERSION := 4.9
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CLANG_VERSION := playground
 TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-playground
 
-TARGET_BUILD_KERNEL_DAISY ?= true
-ifeq ($(strip $(TARGET_BUILD_KERNEL_DAISY)),true)
+TARGET_BUILD_KERNEL_DAISY ?= false
+ifeq ($(strip $(TARGET_BUILD_KERNEL_sakura)),true)
 TARGET_KERNEL_CONFIG := daisy_defconfig
 endif
 
-TARGET_BUILD_KERNEL_SAKURA ?= false
+TARGET_BUILD_KERNEL_SAKURA ?= true
 ifeq ($(strip $(TARGET_BUILD_KERNEL_SAKURA)),true)
 TARGET_KERNEL_CONFIG := sakura_defconfig
 endif
@@ -247,7 +247,7 @@ TARGET_HAS_BROKEN_WLAN_SET_INTERFACE := true
 TARGET_USES_ALTERNATIVE_MANUAL_NETWORK_SELECT := true
 
 # Inherit from the proprietary version
--include vendor/xiaomi/daisy/BoardConfigVendor.mk
+-include vendor/xiaomi/sakura/BoardConfigVendor.mk
 -include vendor/xiaomi/msm8953-common/BoardConfigVendor.mk
 
 #Build

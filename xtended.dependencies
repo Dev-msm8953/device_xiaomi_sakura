@@ -6,12 +6,6 @@
     "clone-depth": "1"
   },
   {
-    "repository" : "Xtended-Devices/vendor_xiaomi_daisy",
-    "target_path": "vendor/xiaomi",
-    "branch"     : "xt",
-    "clone-depth": "1"
-  },
-  {
     "repository" : "https://github.com/Xtended-Devices/vendor_miuicamera",
     "target_path": "vendor/MiuiCamera",
     "branch"     : "x-daisy",

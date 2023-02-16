@@ -14,10 +14,10 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_daisy.mk
+    $(LOCAL_DIR)/xtended_sakura.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_daisy-user \
-    xtended_daisy-userdebug \
-    xtended_daisy-eng
+    xtended_sakura-user \
+    xtended_sakura-userdebug \
+    xtended_sakura-eng
 

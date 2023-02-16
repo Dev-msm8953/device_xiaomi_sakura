@@ -1,12 +1,12 @@
 Copyright (C) 2020 The The LineageOS Project
 
-The Mi A2 Lite (codenamed _"daisy"_) smartphone from Xiaomi.
+Redmi 6 Pro (codenamed _"sakura"_) smartphone from Xiaomi.
 
-Xiaomi Mi A2 Lite was announced and released in July 2018.
+Redmi 6 Pro was announced and released in June 2018.
 
 ## Device specifications
 
-| Device       | Xiaomi Mi A2 Lite                               |
+| Device       | Redmi 6 Pro                                     |
 | -----------: | :---------------------------------------------- |
 | SoC          | Qualcomm MSM8953 Snapdragon 625                 |
 | CPU          | Octa-core 2.0 GHz Cortex-A53                    |
@@ -23,4 +23,4 @@ Xiaomi Mi A2 Lite was announced and released in July 2018.
 
 ## Device picture
 
-![Xiaomi Mi A2 Lite](https://i01.appmifile.com/webfile/globalimg/products/pc/D1S/black_phone.png "Xiaomi Mi A2 Lite in black")
+![Redmi 6 Pro](https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-mi-a2-lite-1.jpg)
