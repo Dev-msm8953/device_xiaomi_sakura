@@ -23,4 +23,4 @@ Redmi 6 Pro was announced and released in June 2018.
 
 ## Device picture
 
-![Redmi 6 Pro](https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-mi-a2-lite-1.jpg)
+![Redmi 6 Pro](https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-6-pro-1.jpg)
