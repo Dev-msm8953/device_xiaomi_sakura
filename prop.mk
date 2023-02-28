@@ -195,7 +195,7 @@ vendor.video.disable.ubwc=1
 
 # Wifi Display (Platform)
 PRODUCT_SYSTEM_PROPERTIES += \
-media.wfd.max_resolution=7
+media.wfd.max_resolution=5
 
 # Memory optimizations
 PRODUCT_VENDOR_PROPERTIES += \
@@ -256,7 +256,7 @@ persist.vendor.cne.logging.qxdm=3974
 
 # Soc
 PRODUCT_VENDOR_PROPERTIES += \
-ro.soc.manufacturer=QTI
+ro.soc.manufacturer=MSM8953
 
 # System
 PRODUCT_SYSTEM_PROPERTIES += \
