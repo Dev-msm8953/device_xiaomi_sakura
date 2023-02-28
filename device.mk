@@ -512,19 +512,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf
 
-# Update engine
-PRODUCT_PACKAGES += \
-    update_engine \
-    update_engine_sideload \
-    update_verifier
-
-PRODUCT_PACKAGES_DEBUG += \
-    update_engine_client
-
-# Updater
-PRODUCT_PACKAGES += \
-    Updater
-
 # USB HAL
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service.sakura
