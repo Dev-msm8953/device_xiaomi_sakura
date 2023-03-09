@@ -151,7 +151,7 @@ TARGET_KERNEL_CLANG_VERSION := playground
 TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-playground
 
 TARGET_BUILD_KERNEL_DAISY ?= false
-ifeq ($(strip $(TARGET_BUILD_KERNEL_sakura)),true)
+ifeq ($(strip $(TARGET_BUILD_KERNEL_DAISY)),true)
 TARGET_KERNEL_CONFIG := daisy_defconfig
 endif
 
