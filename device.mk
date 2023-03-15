@@ -192,9 +192,9 @@ PRODUCT_COPY_FILES += \
     prebuilts/vndk/v32/arm64/arch-arm64-armv8-a/shared/vndk-sp/libhidlbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhidlbase-v32.so
 
 # Dex
-#PRODUCT_DEXPREOPT_SPEED_APPS += \
-#    SystemUI \
-#    NexusLauncherRelease
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    SystemUI \
+    NexusLauncherRelease
 
 # Display
 PRODUCT_PACKAGES += \
@@ -582,7 +582,7 @@ ART_BUILD_HOST_DEBUG := false
 USE_DEX2OAT_DEBUG := false
 
 # Dex
-#WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY := true
+WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY := true
 
 # Permission
 PRODUCT_COPY_FILES += \
